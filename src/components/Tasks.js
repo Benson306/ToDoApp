@@ -1,4 +1,3 @@
-import ModeOutlinedIcon from '@mui/icons-material/ModeOutlined';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeTask } from '../redux/tasksReducer/tasks';

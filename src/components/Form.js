@@ -6,8 +6,6 @@ import { useState } from "react";
 const Form = () => {
     const tasks = useSelector(state => state.tasks);
 
-    const count = tasks.tasks.length;
-
     const dispatch =  useDispatch();
 
     const [ taskName, setTaskName ] = useState('');
