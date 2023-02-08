@@ -32,6 +32,7 @@ const Form = () => {
                     onChange={(e)=> setDate(e.target.value)}
                     className='p-3 m-1 md:m-0 w-full md:w-2/6 rounded-sm'
                     placeholder="Deadline Date"
+                    required
                 />
                 <input 
                     type="submit"
